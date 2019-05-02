@@ -1,8 +1,9 @@
 main {
   background: white;
   @extend .shadow;
-  
-  hr { margin: 80px 0;
+
+  hr { 
+    margin: 80px 0;
     &:first-child {
       margin-top: 0;
     }

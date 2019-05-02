@@ -18,8 +18,8 @@ header {
   background: transparent;
   position: relative;
 
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     content: '';
     height: 100%;
     width: 100%;
@@ -28,14 +28,13 @@ header {
     position: absolute;
     z-index: -100;
   }
-  &:before {
+  &::before {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(51, 51, 51, 0.8)), to(rgba(51, 51, 51, 0)));
     background: linear-gradient(to bottom, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0) 100%);
   }
-  &:after {
+  &::after {
     background: rgba(51, 51, 51, 0.6);
   }
-}
 
   .headline { padding: 120px 0; }
 
