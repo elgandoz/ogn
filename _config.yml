@@ -2,6 +2,7 @@ title: Open Glider Network
 description: "The Open Glider Network's official website - live tracking of gliders, paragliders, UAVs, and other aircraft."
 sitename: Open Glider Network
 baseurl: '/ogn'
+logo: '/assets/img/logo.png'
 sass:
   sass_dir: /assets/_sass
   style: :compressed

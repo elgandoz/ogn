@@ -1,5 +1,8 @@
 nav {
 	@extend .navbar, .navbar-dark, .bg-dark, .fixed-top, .navbar-expand-lg;
+	.navbar-brand img {
+		@extend .d-inline-block, .align-top;
+	}
 	button { @extend .navbar-toggler; }
 	#menu { @extend .collapse, .navbar-collapse; }
 	ul { @extend .navbar-nav, .mr-auto; }
