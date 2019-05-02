@@ -1,5 +1,12 @@
 main {
-  hr { margin: 80px 0; }
+  background: white;
+  @extend .shadow;
+  
+  hr { margin: 80px 0;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
   section { overflow: hidden; }
 
   img {
