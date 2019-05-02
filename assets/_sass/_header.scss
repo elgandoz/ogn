@@ -5,6 +5,10 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+main {
+  background: white;
+  @extend .shadow;
+}
 header {
   display: block;
   width: 100%;
