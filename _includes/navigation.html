@@ -1,26 +1,24 @@
 <nav role='navigation'>
-  <div class='container'>
 
-    <a class='navbar-brand' href='#'>
-      {% if site.logo %}
-      <img src="{{ site.logo | relative_url }}" width="30" height="30" alt="">
-      {% endif %}
-      {{ site.sitename }}
-    </a>
-    <button type='button' data-toggle='collapse' data-target='#menu'>
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <a class='navbar-brand' href='#'>
+    {% if site.logo %}
+    <img src="{{ site.logo | relative_url }}" width="30" height="30" alt="">
+    {% endif %}
+    {{ site.sitename }}
+  </a>
+  <button type='button' data-toggle='collapse' data-target='#menu'>
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
 
-    <div id='menu'>
-      <ul>
-        {% for feature in site.features %}
-        <li>
-          <a href='#{{ feature.id }}'>{{ feature.name }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-
+  <div id='menu'>
+    <ul>
+      {% for feature in site.features %}
+      <li>
+        <a href='#{{ feature.id }}'>{{ feature.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
+
 </nav>
