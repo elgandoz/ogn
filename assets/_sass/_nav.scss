@@ -3,6 +3,6 @@ nav {
 	button { @extend .navbar-toggler; }
 	#menu { @extend .collapse, .navbar-collapse; }
 	ul { @extend .navbar-nav, .mr-auto; }
-	li { @extend .nav-item }
-	li a { .nav-link }
+	li { @extend .nav-item; }
+	li a { @extend .nav-link; }
 }
