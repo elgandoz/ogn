@@ -4,8 +4,8 @@ nav {
 		@extend .d-inline-block, .align-top;
 	}
 	button { @extend .navbar-toggler; }
-	#menu { @extend .collapse, .navbar-collapse; }
-	ul { @extend .navbar-nav, .mr-auto; }
+	#menu { @extend .collapse, .navbar-collapse, .justify-content-end; }
+	ul { @extend .navbar-nav; }
 	li { @extend .nav-item; }
 	li a { @extend .nav-link; }
 }
