@@ -1,10 +1,11 @@
 main {
   background: white;
-  @extend .shadow;
+  @extend .shadow-lg;
 
   hr { 
     margin: 80px 0;
     &:first-child {
+      visibility: hidden;
       margin-top: 0;
     }
   }
