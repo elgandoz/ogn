@@ -8,6 +8,10 @@ main {
       visibility: hidden;
       margin-top: 0;
     }
+    &:last-child {
+      visibility: hidden;
+      margin-bottom: 0;
+    }
   }
   section { overflow: hidden; }
 
@@ -71,4 +75,8 @@ main {
       }
     }
   }
+}
+
+footer {
+  background: white;
 }
